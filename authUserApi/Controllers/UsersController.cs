@@ -46,10 +46,6 @@ namespace authUserApi.Controllers
                 return StatusCode(400, new {message = e.Message});
             }
 
-
-
-
-          
         }
     }
 }
